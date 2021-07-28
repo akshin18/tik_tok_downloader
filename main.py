@@ -13,7 +13,7 @@ dp = Dispatcher(bot)
 
 
 
-@dp.channel_post_handler(chat_id=[-1001159850794,-1001260436616])
+@dp.channel_post_handler(chat_id=-1001388181569)
 async def da(post: types.Message):
     if post.text:
         if "https://vm.tiktok.com" in post.text or ( "tiktok.com" in post.text and 'video' in post.text) :
